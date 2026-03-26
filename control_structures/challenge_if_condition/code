@@ -9,19 +9,19 @@ namespace ConsoleApp
             int age = 15;
 
             // 1. Check if the user is 18 or older
-            if (___)
+            if (age >= 18)
             {
                 Console.WriteLine("Access granted");
             }
 
             // 2. Check if the user is between 13 and 17
-            if (___)
+            if (age >=13 || age <=17)
             {
                 Console.WriteLine("Access limited");
             }
 
             // 3. Check if the user is 12 or younger
-            if (___)
+            if (age <= 12)
             {
                 Console.WriteLine("Access denied");
             }
